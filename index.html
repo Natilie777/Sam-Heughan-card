@@ -1,45 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/styles/styles.css">
-  <title>Card</title>
-</head>
-<body>
-  <div class="container">
-    <div class="card">
-    <header>
-      <div class="content">
-       <img src="./assets/images/icons/location.png" alt="location" class="location-icon">
-        <span class="location-text">Edinburgh Scotland</span>
-      </div> 
-    </header>
-      <main>
-     <div class="wrapper">  <div class="image-container"><img src="./assets/images/pictures/OIP.webp" alt="Sam Heughan"></div></div>
-        <div class="description">
-          <h1>Sam Heughan</h1>
-          <p class="sam">Sam Roland Heughan (born 30 April 1980) is a Scottish actor, producer, author, and entrepreneur.</p>
-          <button class="btn">Follow</button>
-        </div>
-            </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" 
+href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    
+    <title>Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <header>
+          <div class="content">
+          
+<i class="fa-solid fa-location-arrow"></i>
+
+            <span class="location-text">Edinburgh Scotland</span>
+          </div>
+        </header>
+        <main>
+          <div class="wrapper">
+            <div class="image-container">
+              <img src="./assets/images/pictures/OIP.webp" alt="Sam Heughan" />
+            </div>
+          </div>
+          <div class="description">
+            <h1>Sam Heughan</h1>
+            <p class="sam">
+              Sam Roland Heughan (born 30 April 1980) is a Scottish actor,
+              producer, author, and entrepreneur.
+            </p>
+            <button class="btn">Follow</button>
+          </div>
+        </main>
         <footer class="footer">
           <div class="icons">
-        <div class="icon"><img src="./assets/images/icons/post.png" alt="posts">
-        <div class="icon-content"><h4>Posts</h4>
-        <span>632</span></div></div>
-        <div class="icon"><img src="./assets/images/icons/heart (2).png" alt="likes">
-      <div class="icon-content"><h4>Favorites</h4>
-        <span>3,472</span></div></div>
-        <div class="icon"><img src="./assets/images/icons/telegram.png" alt="messages">
-        <div class="icon-content"><h4>Messages</h4>
-        <span>1,293</span></div></div>
+            <div class="icon">
+           <i class="fa-solid fa-envelope-circle-check"></i>
+              <div class="icon-content">
+                <h4>Posts</h4>
+                <span>632</span>
+              </div>
+            </div>
+            <div class="icon">
+           <i class="fa-regular fa-heart"></i>
+
+              <div class="icon-content">
+                <h4>Favorites</h4>
+                <span>3,472</span>
+              </div>
+            </div>
+            <div class="icon">
+           <i class="fa-brands fa-telegram"></i>
+              <div class="icon-content">
+                <h4>Messages</h4>
+                <span>1,293</span>
+              </div>
+            </div>
           </div>
         </footer>
-</div>
-  </div>
-</body>
+      </div>
+    </div>
+  </body>
 </html>
